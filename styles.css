@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+hr {
+  border: none;
+  border-top-style: dotted;
+  width: 5%;
+  margin: 100px auto;
+  border-width: thick;
+  border-color: #D61C4E;
+}
+
+h1 {
+  font-size: 5rem;
+  /**** 100% = 16px = 1rem ****/
+  /**** rem doesnt add up to parent font size, it is independent ****/
+  margin: 50px auto 0 auto;
+  font-family: 'Pacifico', cursive;
+  color: #FAC213;
+}
+
+h2 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 2.5rem;
+  color: #FAC213;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Nunito', sans-serif;
+  color: #F77E21;
+  font-weight: bold;
+}
+
+a {
+  font-family: 'Nunito', sans-serif;
+  color: #F77E21;
+}
+
+p {
+  font-weight: bolder;
+}
+
+.top-container {
+  background-color: #FEF9A7;
+  padding-top: 100px;
+  position: relative;
+}
+
+.stu {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.computer {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.tag-line {
+  margin: 35px auto 35px auto;
+}
+
+.contact-me {
+  width: 40%;
+  margin: 100px auto;
+}
+
+.chillies {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.profile {
+  width: 30%;
+  margin: 100px auto;
+}
+
+.shaunak-img {
+  width: 40%;
+}
+
+.self-description {
+  line-height: 2;
+}
+
+.greeting {
+  line-height: 2;
+  margin: 30px auto;
+  margin-bottom: 60px;
+}
+
+.btn {
+  background: #FAC213;
+  background-image: -webkit-linear-gradient(top, #FAC213, #F77E21);
+  background-image: -moz-linear-gradient(top, #FAC213, #F77E21);
+  background-image: -ms-linear-gradient(top, #FAC213, #F77E21);
+  background-image: -o-linear-gradient(top, #FAC213, #F77E21);
+  background-image: linear-gradient(to bottom, #FAC213, #F77E21);
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #f5d998;
+  background-image: -webkit-linear-gradient(top, #f5d998, #FAC213);
+  background-image: -moz-linear-gradient(top, #f5d998, #FAC213);
+  background-image: -ms-linear-gradient(top, #f5d998, #FAC213);
+  background-image: -o-linear-gradient(top, #f5d998, #FAC213);
+  background-image: linear-gradient(to bottom, #f5d998, #FAC213);
+  text-decoration: none;
+}
+
+.bottom-container {
+  background-color: #FAC213;
+  margin-bottom: 0;
+  padding: 50px;
+}
+
+.copyright {
+  margin-bottom: 0;
+  margin-top: 40px;
+  color: #FEF9A7;
+  font-size: 13px;
+}
+
+.footer-link {
+  margin: 0 15px 0 15px;
+  color: #F77E21;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #D61C4E;
+}
